@@ -20,6 +20,7 @@ const Grandpa = () => {
     const handleBuyHouse = () => {
         setHouse(house + 1);
     }
+
     return (
         <RingContext.Provider value={[house, setHouse]}>
             <div className='grandpa' >
